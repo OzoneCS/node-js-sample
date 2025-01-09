@@ -31,4 +31,7 @@ items:
     input:
       status: passed
       note: g
+  - name: Verify that MFA for your GitHub organization is enabled
+    uses: >-
+      jitsecurity-controls/jit-plans/items/third_party_app/item-mfa-scm.yml@latest
 
